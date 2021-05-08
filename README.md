@@ -6,3 +6,5 @@ Requries that got (>11.8.2) is added as a dependency
 
 # Usage
 accepts a `<$FromCall>` variable which is passed to the AWS API gateway URL then to a Lambda function.
+
+Function returns false if the number isn't in the database or if the key isAllowed is false and returns true if the object exists and the key isAllowed is true.
